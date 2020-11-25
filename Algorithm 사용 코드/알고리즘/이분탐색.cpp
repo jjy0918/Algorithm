@@ -5,11 +5,12 @@ binary_search(v.begin(), v.end(), number);
 // lower_bound, upper_bound
 // lower_bound : 찾는 값 >= 기준 값 중 가장 작은 원소를 반환
 // upper_bound : 찾는 값 > 기준 값 중 가장 작은 원소를 반환.
-*lower_bound(v.begin(), v.end(), number);
-*upper_bound(v.begin(), v.end(), number);
+vetor<int> v{11, 21, 31, 41, 51};
+*lower_bound(v.begin(), v.end(), 41); // 41
+*upper_bound(v.begin(), v.end(), 41); // 51
 
-lower_bound(v.begin(), v.end(), number) - v.begin();
-upper_bound(v.begin(), v.end(), number) - v.begin();
+lower_bound(v.begin(), v.end(), 41) - v.begin(); // 3
+upper_bound(v.begin(), v.end(), 41) - v.begin(); // 4
 
 // 함수 만들어서 사용
 int binarySearch(vector<int>& v, int target)
