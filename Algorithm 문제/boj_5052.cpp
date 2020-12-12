@@ -1,7 +1,8 @@
 /*
 	
-	백준 5052번 문제 - 타임머신
+	백준 5052번 문제 - 전화번호 목록
 	https://www.acmicpc.net/problem/5052
+	https://9327144.tistory.com/entry/BOJ-5052-%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8-%EB%AA%A9%EB%A1%9D-C?category=945534
 
 */
 
